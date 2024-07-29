@@ -64,6 +64,10 @@ a {
 .header__navbar-action--signin {
   color: #494949;
   text-align: center;
+  padding: 12px 24px;
+  border-radius: 6px;
+
+
 }
 
 .header__navbar-action--signup {
@@ -169,7 +173,7 @@ a {
 
 .header__hero-right {
   width: 49%;
-  height: 631px;
+  height: 630px;
   background: #e1f7f6;
   position: relative;
 }
