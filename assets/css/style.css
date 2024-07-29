@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* common */
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header__navbar {
+  padding: 64px 0;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navbar-list {
+  display: flex;
+  column-gap: 29px;
+  align-items: center;
+}
+
+.header__navbar-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.header__navbar-logo img {
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+}
+
+.header__navbar-item {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  padding: 10px;
+}
+
+.header__navbar-item:hover {
+  color: #2f3a3b;
+  font-weight: 600;
+}
+
+.header__navbar-action--signin {
+  color: #494949;
+  text-align: center;
+}
+
+.header__navbar-action--signup {
+  color: #1ebfc1;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  padding: 12px 24px;
+}
+
+.header__navbar-action--signup:hover {
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header__navbar-action {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+/* hero */
+.header__hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__hero-left {
+  width: 40%;
+}
+.header__hero-top {
+  padding-top: 100px;
+  display: flex;
+  height: 21px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.header__hero-icon {
+  margin-right: 3px;
+}
+
+.header__hero-platform {
+  color: #767e7e;
+  font-size: 1.4rem;
+}
+
+.header__hero-heading {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  line-height: 1.16;
+  font-weight: 700;
+  height: 144px;
+}
+
+.header__hero-desc {
+  width: 374px;
+  margin-top: 46px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  line-height: 1.77; /* 177.778% */
+}
+
+.header__hero-bottom {
+  margin-top: 52px;
+}
+
+.header__hero-bottom {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  column-gap: 50px;
+}
+.header__hero-btn-link {
+  padding: 21px 41px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header__hero-btn-play {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__hero-btn-play:hover {
+  box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__hero-right {
+  width: 49%;
+  height: 631px;
+  background: #e1f7f6;
+  position: relative;
+}
+
+.header__hero-bg-img {
+  object-fit: cover;
+}
+
+.header__hero-card-book {
+  display: flex;
+  position: absolute;
+  top: 149px;
+  left: -40px;
+  width: 157px;
+  padding: 18px 25px;
+  column-gap: 16px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header__hero-card-schedule {
+  display: flex;
+  position: absolute;
+  bottom: 46px;
+  left: -50px;
+  flex-direction: column;
+  row-gap: 12px;
+  padding: 16px 25px 45px;
+  width: 124px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header__hero-card-schedule--title {
+  margin-bottom: 4px;
+}
+
+.header__hero-card-student {
+  padding: 17px 35px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+  width: 207px;
+  height: 90px;
+  position: absolute;
+  right: 45px;
+  bottom: 41px;
+}
