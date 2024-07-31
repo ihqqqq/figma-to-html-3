@@ -66,8 +66,6 @@ a {
   text-align: center;
   padding: 12px 24px;
   border-radius: 6px;
-
-
 }
 
 .header__navbar-action--signup {
@@ -223,4 +221,62 @@ a {
   position: absolute;
   right: 45px;
   bottom: 41px;
+}
+
+/* feature */
+.feature {
+  width: 1024px;
+  margin: 130px auto 0 0;
+}
+
+.feature__logo {
+  color: #767e7e;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.feature__heading {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+  padding: 18px 0;
+  width: 577px;
+}
+
+.feature__desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 300;
+  height: 54px;
+}
+
+.feature__wrap {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.feature__item-img {
+  width: 102px;
+  height: 106px;
+  margin-bottom: 26px;
+}
+
+.feature__item-title {
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.feature__item-desc {
+  color: #9da6a5;
+  width: 168px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69; /* 168.75% */
 }
