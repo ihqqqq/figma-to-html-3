@@ -42,6 +42,11 @@ a {
   display: flex;
   align-items: center;
   column-gap: 6px;
+  position: relative;
+}
+
+.header__navbar-logo-wrap {
+  padding: 0 5px;
 }
 
 .header__navbar-logo img {
@@ -258,12 +263,11 @@ a {
   align-items: center;
 }
 
-
-
 .feature__item-img {
   width: 102px;
   height: 106px;
   margin-bottom: 26px;
+  position: relative;
 }
 
 .feature__item-title {
@@ -279,4 +283,110 @@ a {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.69; /* 168.75% */
+}
+
+/* course */
+.course {
+  margin-top: 130px;
+}
+
+
+
+.course__logo {
+  color: #767e7e;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.course__heading {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+  padding: 18px 0;
+  width: 356px;
+}
+
+.course__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course__desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 300;
+  height: 54px;
+  width: 525px;
+  line-height: 1.78;
+}
+
+.course__view {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.course__list {
+  margin-top: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course__item-img {
+  width: 359px;
+  height: 393px;
+  border-radius: 8px;
+  position: relative;
+  opacity: 0.8;
+  object-fit: cover;
+}
+
+.course__item-bot {
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+  padding: 10px 82px 29px 25px;
+  position: relative;
+  left: 17px;
+  top: -70px;
+}
+
+.course__item-heading {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.course__item-cost {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.course__item-cost > strong {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.course__item-desc {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.course__item-more {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
 }
